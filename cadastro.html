@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header id="home">
+        <div>
+            <img src="img/logo DC.png" alt="logo da ONG doe conhecimento" width="150px">
+            <h2>Doe Conhecimento</h2>
+            <nav>
+                <a href="#home">Início</a>
+                <a href="#contato">Contatos</a>
+                <a href="projetos.html">Projetos</a>
+            </nav>
+            <a href="">se inscrever</a>
+        </div>
+    </header>
+
+
+    <main>
+        
+        <form action="cadastro.html" method="post">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nome">Nome Completo</label><br>
+                <input type="text" name="nome" placeholder="nome" id="nome" required=""><br><br>
+                <label for="email">E-mail</label>><br>
+                <input type="email" name="email" placeholder="email@exemplo.com" id="email" required=""><br><br>
+                <label for="tel">Telefone</label><br>
+                <input type="number" name="tel" placeholder="(00) 00000-0000" id="numero" required=""><br><br>
+
+
+                <p>Selecione se quer ser doador ou voluntário</p>
+                
+                <input type="radio" value="doador" name="tipo" id="doador" required="">
+                <label for="pergunta">Doador</label>
+                <input type="radio" value="voluntario" name="tipo" id="voluntario">
+                <label for="pergunta">voluntário</label>
+                
+                <br><br>
+                <button type="submit">Cadastrar</button>
+
+            </fieldset>
+        </form>
+    
+
+    </main>
+
+    <footer>
+        <div id="contato"></div>
+        <h3>Doe Conhecimento</h3>
+        <p>Grupo criado em Curitiba em 2026 sem fins lucrativos.</p>
+        <h4>Contato</h4>
+        <p> R. Waldemar Kost - Hauer, Curitiba - PR, 81610-100 <br>
+        (41)90000-0000 <br>
+        Curitiba - PR</p>
+    </footer>
+</body>
+</html>
